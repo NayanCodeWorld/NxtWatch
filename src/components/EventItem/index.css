@@ -1,0 +1,131 @@
+.event-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* border: 2px solid blue; */
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 756px) {
+  .event-container {
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.event-container img {
+  width: 100%;
+}
+
+.event-container div {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+@media screen and (min-width: 756px) {
+  .event-container img {
+    width: 40%;
+  }
+  .event-container div {
+    width: 50%;
+    margin-left: 15px;
+    /* border: 2px solid black; */
+  }
+}
+
+.event-container div img {
+  width: 40px;
+}
+
+@media screen and (min-width: 756px) {
+  .event-container div img {
+    display: none;
+  }
+}
+
+.event-container div div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-left: 10px;
+  /* border: 2px solid red; */
+}
+
+@media screen and (min-width: 756px) {
+  .event-container div div {
+    width: 100%;
+  }
+}
+
+#theme-title {
+  margin: 0;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#dark-theme-title {
+  margin: 0;
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 756px) {
+  #theme-title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  #dark-theme-title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.event-container div div ul {
+  margin-top: 8px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 756px) {
+  .event-container div div ul {
+    justify-content: flex-start;
+    min-width: 70%;
+    max-width: 80%;
+  }
+}
+
+.event-container div div ul li p {
+  color: #7e858e;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  list-style-type: disc;
+  padding: 0;
+  margin: 0px;
+}
+
+@media screen and (min-width: 756px) {
+  .event-container div div ul li p {
+    font-size: 14px;
+    margin: 0px;
+  }
+}
+
+.event-container div div ul li:first-child {
+  list-style-type: none;
+}

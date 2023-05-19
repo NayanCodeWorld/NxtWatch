@@ -1,0 +1,131 @@
+.lg-home-sidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.lg-home-sidebar-dark-theme {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #424242;
+}
+
+@media screen and (max-width: 756px) {
+  .lg-home-sidebar {
+    display: none;
+  }
+  .lg-home-sidebar-dark-theme {
+    display: none;
+  }
+}
+
+.lg-home-sidebar-page-link {
+  width: 100%;
+  padding: 0;
+}
+
+.lg-home-sidebar-link {
+  list-style-type: none;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: #64748b; /* remove */
+}
+
+.active-page {
+  list-style-type: none;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: #ff0b37;
+  background-color: #ebebeb;
+}
+
+.dark-active-page {
+  list-style-type: none;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: #ff0b37;
+  background-color: #606060;
+}
+
+.lg-home-sidebar-link p {
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.active-page p {
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #64748b;
+}
+
+.dark-active-page p {
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #ffffff;
+}
+
+.route-link {
+  text-decoration: none;
+}
+
+.lg-home-sidebar-link Link {
+  text-decoration: none;
+}
+
+.contactUs-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.contactUs-container h1 {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #64748b;
+}
+
+.contactUs-container ul {
+  display: flex;
+  padding: 0;
+}
+
+.contactUs-container ul li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.contactUs-container ul li img {
+  width: 35px;
+}
+
+.contactUs-container p {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+}

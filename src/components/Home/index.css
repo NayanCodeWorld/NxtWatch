@@ -1,0 +1,256 @@
+.home-body-container {
+  display: flex;
+  height: 90vh;
+}
+
+aside {
+  max-height: 90vh;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  aside {
+    display: block;
+  }
+}
+
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.home-main-container-dark-theme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #313131;
+}
+
+@media screen and (min-width: 756px) {
+  .home-main-container {
+    width: 100%;
+  }
+}
+
+.premium-poster-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  width: 100%;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-position: right;
+}
+
+.premium-poster-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.premium-poster-logo {
+  width: 120px;
+}
+
+@media screen and (min-width: 756px) {
+  .premium-poster-logo {
+    width: 180px;
+  }
+  .premium-poster-container {
+    width: 100%;
+    padding: 20px 50px;
+  }
+}
+
+.premium-poster-remove-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #64748b;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.premium-poster-remove-btn:hover {
+  color: #ff0000;
+}
+
+.premium-poster-description {
+  font-family: Roboto;
+  color: #1e293b;
+  font-size: 16px;
+  max-width: 60%;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 756px) {
+  .premium-poster-description {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 30%;
+  }
+}
+
+.get-it-now-btn {
+  padding: 5px 15px;
+  border: 2px solid #1e293b;
+  background-color: transparent;
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 756px) {
+  .get-it-now-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 7px 18px;
+  }
+}
+
+.videos-list-container {
+  width: 100%;
+  min-height: 50vh;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.video-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  padding: 0;
+}
+
+.home-video-search-input-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #64748b;
+  margin-top: 20px;
+}
+
+.home-video-search-input-container input {
+  width: 85%;
+  padding: 7px 15px;
+  border: none;
+  outline: none;
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 14px;
+  height: 100%;
+}
+
+.home-video-search-input-container button {
+  width: 15%;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-left: 1px solid #64748b;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  color: #64748b;
+}
+
+.home-video-search-input-container button:hover {
+  background-color: #ebebeb;
+}
+
+@media screen and (min-width: 765px) {
+  .home-video-search-input-container {
+    width: 40%;
+    align-self: flex-start;
+    margin-left: 45px;
+  }
+}
+
+.video-list-container {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 756px) {
+  .video-list-container {
+    width: 100%;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.no-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.no-video-container img {
+  width: 50%;
+}
+
+@media screen and (min-width: 756px) {
+  .no-video-container img {
+    width: 25%;
+  }
+}
+
+.no-video-container h1 {
+  font-size: 16px;
+  color: #1e293b;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+
+@media screen and (min-width: 756px) {
+  .no-video-container h1 {
+    font-size: 18px;
+  }
+}
+
+.no-video-container p {
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+@media screen and (min-width: 756px) {
+  .no-video-container p {
+    font-size: 16px;
+  }
+}
+
+.no-video-container button {
+  padding: 8px 20px;
+  border: none;
+  background-color: #4f46e5;
+  font-size: 12px;
+  color: #f1f5f9;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 756px) {
+  .no-video-container button {
+    padding: 10px 22px;
+  }
+}

@@ -1,0 +1,92 @@
+.popup-container {
+  padding: 8px 20px;
+  border: 2px solid #64748b;
+  background: transparent;
+  color: #64748b;
+  font-weight: 500;
+  margin-left: 10px;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 80%;
+  height: 120px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+@media (min-width: 768px) {
+  .popup-content {
+    width: 25%;
+    height: 150px;
+    border-radius: 8px;
+  }
+}
+
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role='tooltip'].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cancel-button {
+  padding: 8px 20px;
+  border: 2px solid #64748b;
+  background: transparent;
+  color: #64748b;
+  font-weight: 500;
+  border-radius: 2px;
+  outline: none;
+}
+
+.confirm-button {
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 2px;
+  outline: none;
+  background-color: #3b82f6;
+}
+
+.trigger-button {
+  padding: 4px 15px;
+  border: 2px solid #3b82f6;
+  background-color: transparent;
+  color: #3b82f6;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.trigger-button:hover {
+  background-color: #3b82f6;
+  color: #ffffff;
+}

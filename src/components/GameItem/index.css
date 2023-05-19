@@ -1,0 +1,54 @@
+.game-item-container {
+  list-style-type: none;
+  width: 42%;
+  margin: 8px;
+}
+
+@media (min-width: 756px) {
+  .game-item-container {
+    width: 25%;
+    margin: 25px;
+  }
+}
+
+.game-item-container img {
+  width: 100%;
+}
+
+#game-title {
+  font-size: 15px;
+  font-family: Roboto;
+  margin-bottom: 5px;
+  color: #383838;
+}
+
+#dark-theme-game-title {
+  font-size: 15px;
+  font-family: Roboto;
+  margin-bottom: 5px;
+  color: #f1f5f9;
+}
+
+.game-item-container div p {
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #909090;
+}
+
+@media (min-width: 756px) {
+  #game-title {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+  #dark-theme-game-title {
+    font-size: 18px;
+  }
+
+  .game-item-container div p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
